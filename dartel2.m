@@ -175,5 +175,7 @@ function varargout = dartel2(varargin)
 % John Ashburner
 % $Id: dartel2.m 1143 2008-02-07 19:33:33Z spm $
 
-error('Not compiled for %s in MATLAB %s  (see make.m)\n', computer, version);
+%error('Not compiled for %s in MATLAB %s  (see make.m)\n', computer, version);
+error('Not compiled for %s in MATLAB %s  (error make.m)\n', computer, version);
+
 
